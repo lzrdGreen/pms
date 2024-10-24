@@ -1,0 +1,59 @@
+{% extends 'projectapp/base.html' %}
+
+{% block title %}Hint{% endblock %}
+{% block content %}
+<h1 style="text-align: center;">Welcome to Project Management System</h1>
+<p>Thank you for your interest in this Project Management System. Of course, you can register and take a tour.<br>Or your could <a href="{% url 'login' %}">login</a> using:</p>
+<h2>Username: guest
+<br>
+Password: guest_password</h2>
+<hr style ="border: 2px solid #2166ac;">
+<h1 style="text-align: center;">Project Management System (PMS) App</h1>
+<h2>Purpose</h2>
+<p>The PMS app is designed to provide a user-friendly, versatile project management solution. It allows users to efficiently create, view, edit, and delete tasks and projects (CRUD operations), offering both list and board views for project visualisation. The app aims to streamline project management processes while maintaining simplicity and usability.</p>
+<h2>Key Features</h2>
+<ul>
+    <li><p>Dual view options: list and board views for projects</p></li>
+    <li><p>Project timeline visualisation with task dependencies</p></li>
+    <li><p>Search functionality across projects and tasks </p></li>
+    <li><p>Intuitive user interface</p></li>
+    <li><p>Streamlined project management workflows to enhance productivity</p></li>
+    <li><p>Task and project CRUD operations</p></li>
+    <li><p>Content creation and editing according to user permissions</p></li>
+    <li><p>Task prioritisation and categorisation</p></li>
+</ul>
+<h2>Core Philosophy</h2>
+<p>Simplicity, usability, and added value are at the heart of the PMS app. The focus is on delivering essential features that enhance project management without overwhelming users with complexity.</p>
+<h2>Major Directions for Further Development</h2>
+<h3>Basic Collaboration Tools</h3>
+<ul>
+    <li>Implement social media style user profiles</li>
+    <li>Enable seamless assignment of tasks to specific team members</li>
+    <li>Add basic file-sharing functionality with image uploads</li>
+    <li>Develop a simple in-app notification system for task assignments and deadlines</li>
+</ul>
+<h3>Visual Project Management</h3>
+<ul>
+    <li>Introduce a board view with customisable columns</li>
+    <li>Add progress bars for projects</li>
+</ul>
+<h3>Advanced Content Creation</h3>
+<ul>
+    <li>Integrate a lightweight text editor for formatting</li>
+    <li>Enhance categorisation based on complex tagging systems</li>
+    <li>Improve search functionality with filters</li>
+</ul>
+<h3>Time Management Features</h3>
+<ul>
+    <li>Implement a calendar view for deadlines and milestones</li>
+    <li>Add basic time tracking for tasks</li>
+    <li>Automatically create recurring tasks for repetitive jobs</li>
+    <li>Develop a simple dashboard for upcoming deadlines and task assignments</li>
+</ul>
+<h3>Customisation and Flexibility</h3>
+<ul>
+    <li>Allow users to create custom project templates</li>
+    <li>Enable basic task and project export functionality</li>
+</ul>
+<p>Each of these directions can be further developed based on client needs and budget constraints, prioritising simplicity in implementation and cost-effectiveness in development.</p>
+{% endblock %}
